@@ -34,21 +34,29 @@ body{
 .card-img
 {
     width: 90%;
+    transition:0.5s;
+        transition-delay: 0.4s;
 }
 .card-img img
 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* transition:0.5s;
+    transition-delay: 0.4s; */
 }
 .card-title, .card-cost
 {
     text-align: center;
+    transition:0.5s;
+        transition-delay: 0.4s;
 }
 .card-number, .card-color
 {
     display: flex;
     align-items: center;
+    transition:0.5s;
+        transition-delay: 0.4s;
 }
 .card-number span
 {
@@ -89,6 +97,8 @@ body{
     border-radius: 10px;
     background-color:#4daf54 ;
     color: white;
+    /* transition:0.5s;
+        transition-delay: 0.4s; */
 }
 #card-container:hover
 {
@@ -96,28 +106,28 @@ body{
     .card-img
     {
         transform: translateY(-80px) rotate(-20deg);
-        transition:0.5s;
-        transition-delay: 0.4s;
+        /* transition:0.5s;
+        transition-delay: 0.4s; */
     }
     .card-title
     {
         transform: translateX(-65px) translateY(-51px);
-        transition:0.5s;
-        transition-delay: 0.4s;
+        /* transition:0.5s;
+        transition-delay: 0.4s; */
     }
     .card-cost
     {
         transform: translateX(-117px) translateY(-45px);
-        transition:0.5s;
-        transition-delay: 0.4s;
+        /* transition:0.5s;
+        transition-delay: 0.4s; */
     }
     .card-child-container
     {
         margin-top: 10px;
         opacity: 100;
         visibility: visible;
-        transition:0.5s;
-        transition-delay: 0.4s;
+        /* transition:0.5s;
+        transition-delay: 0.4s; */
     }
 }
 .card-child-container
@@ -125,4 +135,6 @@ body{
     margin-top: 200px;
     opacity: 0;
     visibility: hidden;
+    transition:0.5s;
+    transition-delay: 0.4s;
 }
